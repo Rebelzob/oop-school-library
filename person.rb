@@ -2,7 +2,7 @@ require_relative 'nameable'
 
 class Person < Nameable
   # getters and setters
-  attr_accessor :name, :age
+  attr_accessor :name, :age, :rentals
   attr_reader :id
 
   # constructor
@@ -12,6 +12,7 @@ class Person < Nameable
     @name = name
     @age = age
     @parent_permission = parent_permission
+    @rentals = []
   end
 
   # methods
@@ -25,5 +26,9 @@ class Person < Nameable
 
   def can_use_services?
     of_age? || @parent_permission
+  end
+
+  def add_rental(date, book)
+    Rental.new(date, self, book)
   end
 end
