@@ -133,6 +133,6 @@ I would like to thank the following:
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
