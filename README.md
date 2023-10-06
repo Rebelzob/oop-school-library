@@ -43,6 +43,10 @@ This project is a simple school library that allows to record what books are ava
 - Add new students or teachers.
 - Add new books.
 - Save records of who borrowed a given book and when.
+- Check if a book is rented.
+- Check which books a student and a teacher has rented.
+- Check list of all books in the library.
+- Check list of all students and teachers in the library.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,9 +81,7 @@ Go to the project directory.
 In the project directory, run/ Ruby each query in the following order:
 
 ```bash
-  Ruby person.rb
-  Ruby student.rb
-  Ruby teacher.rb
+  Ruby main.rb
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -125,4 +127,12 @@ Give a ⭐️ if you like this project!
 
 I would like to thank the following:
 - [Microverse](https://www.microverse.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

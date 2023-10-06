@@ -1,9 +1,11 @@
 class Book
   # setter and getter
-  attr_accesor :title, :author, :rentals
+  attr_accessor :title, :author, :rentals
+  attr_reader :id
 
   # constructor
   def initialize(title, author)
+    @id = Random.rand(1..1000)
     @title = title
     @author = author
     @rentals = []
