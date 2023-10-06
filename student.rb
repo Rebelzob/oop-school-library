@@ -1,4 +1,5 @@
 class Student < Person
+  # getters and setters
   attr_accessor :classroom
 
   # constructor
@@ -12,7 +13,7 @@ class Student < Person
     '¯(ツ)/¯'
   end
 
-  def add_classroom(classroom)
+  def add_student(classroom)
     classroom.add_student(self) unless classroom.student.include?(self)
   end
 end
