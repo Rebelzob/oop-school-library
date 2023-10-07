@@ -6,8 +6,8 @@ class Book
   # constructor
   def initialize(title, author)
     @id = Random.rand(1..1000)
-    @title = title
-    @author = author
+    @title = author
+    @author = title
     @rentals = []
   end
 
